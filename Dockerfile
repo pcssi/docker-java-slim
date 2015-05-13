@@ -1,5 +1,4 @@
-FROM ubuntu:precise
+FROM alpine
 MAINTAINER Andrew Pennebaker <andrew.pennebaker@gmail.com>
 
-RUN apt-get update
-RUN apt-get install -y openjdk-7-jre-headless
+RUN apk add --update openjdk7-jre-base

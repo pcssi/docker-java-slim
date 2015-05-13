@@ -8,6 +8,7 @@ https://registry.hub.docker.com/u/mcandre/docker-java-slim/
 
 docker-java-slim is a container for running Java classes, made smaller with a few techniques:
 
+* Replace [ubuntu](https://registry.hub.docker.com/_/ubuntu/) with [alpine](https://registry.hub.docker.com/_/alpine/).
 * Replace [Oracle JDK](http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html) with [OpenJDK](http://openjdk.java.net/).
 * Drop [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html) for [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html).
 * Replace graphical JRE with [headless JRE](http://packages.ubuntu.com/search?keywords=openjdk-7-jre-headless&searchon=names).
@@ -17,11 +18,11 @@ docker-java-slim is a container for running Java classes, made smaller with a fe
 ```
 $ make
 docker run --rm mcandre/docker-java-slim java -version
-java version "1.7.0_79"
-OpenJDK Runtime Environment (IcedTea 2.5.5) (7u79-2.5.5-0ubuntu0.12.04.1)
-OpenJDK 64-Bit Server VM (build 24.79-b02, mixed mode)
+java version "1.7.0_75"
+OpenJDK Runtime Environment (IcedTea 2.5.4) (Alpine 7.75.2.5.4-r0)
+OpenJDK 64-Bit Server VM (build 24.75-b04, mixed mode)
 docker images | grep mcandre/docker-java-slim | awk '{ print $(NF-1), $NF }'
-266.1 MB
+122.7 MB
 ```
 
 # REQUIREMENTS
