@@ -1,4 +1,4 @@
-# docker-java-slim - a slim Docker container having Java JDK
+# docker-java-slim - a slim Docker container having Java
 
 # DOCKER HUB
 
