@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-java-slim
+IMAGE=mcandre/docker-java-slim:7
 
 all: run
 
