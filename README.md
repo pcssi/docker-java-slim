@@ -17,7 +17,7 @@ docker-java-slim is a container for running Java classes, made smaller with a fe
 
 ```
 $ make
-docker run --rm mcandre/docker-java-slim java -version
+docker run --rm mcandre/docker-java-slim:7 java -version
 java version "1.7.0_75"
 OpenJDK Runtime Environment (IcedTea 2.5.4) (Alpine 7.75.2.5.4-r0)
 OpenJDK 64-Bit Server VM (build 24.75-b04, mixed mode)
