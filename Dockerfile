@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM gliderlabs/alpine:3.2
 
 MAINTAINER Pete Colapietro <pcssi@users.noreply.github.com>
 
