@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-java-slim:latest
+IMAGE=pcssi/docker-java-slim:latest
 
 all: run
 
